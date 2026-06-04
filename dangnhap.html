@@ -1,84 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Đăng Nhập</title>
+    <title>Frozen Yogurt</title>
+
+    <link href="images/favicon.ico"
+          rel="shortcut icon"
+          type="image/vnd.microsoft.icon" />
 </head>
-<body id="top">
+
+<body>
 
 <header>
-    <h1>FreezeeVN</h1>
+    <a id="#top" href="trangchu.html">
+        <img src="images/logo.png" alt="">
+    </a>
 
     <nav>
-        <a href="index.html">Trang Chủ</a>
-        <a href="#">Giới Thiệu</a>
-        <a href="#">Sản Phẩm</a>
-        <a href="#">Tin Tức</a>
+        <a href="trangchu.html">Trang Chủ</a>
+        <a href="gioithieu.html">Giới Thiệu</a>
+        <a href="sanpham.html">Sản Phẩm</a>
+        <a href="tintuc.html">Tin Tức</a>
         <a href="dangnhap.html">Đăng Nhập</a>
         <a href="dangky.html">Đăng Ký</a>
-        <a href="#">Liên Hệ</a>
+        <a href="lienhe.html">Liên Hệ</a>
     </nav>
 </header>
 
-<hr>
-
 <main>
-    <form action="#" method="post">
-        <fieldset>
-            <legend><b>ĐĂNG NHẬP</b></legend>
 
-            <table>
-                <tr>
-                    <td colspan="2" align="center">
-                        <h2>Avatar</h2>
-                    </td>
-                </tr>
+<form action="#"
+      method="post"
+      enctype="application/x-www-form-urlencoded">
 
-                <tr>
-                    <td><label for="uname"><b>Email</b></label></td>
-                    <td>
-                        <input id="uname" type="text" placeholder="Nhập email" name="uname" required>
-                    </td>
-                </tr>
+    <fieldset>
 
-                <tr>
-                    <td><label for="psw"><b>Mật khẩu</b></label></td>
-                    <td>
-                        <input id="psw" type="password" placeholder="Nhập mật khẩu" name="psw" required>
-                    </td>
-                </tr>
+        <legend><b>ĐĂNG NHẬP</b></legend>
 
-                <tr>
-                    <td colspan="2" align="center">
-                        <button type="submit">Đăng Nhập</button>
-                        <button type="button">Hủy</button>
-                    </td>
-                </tr>
+        <table>
 
-                <tr>
-                    <td colspan="2">
-                        <span>Bạn quên <a href="#">Mật Khẩu?</a></span>
-                        <span>
-                            <input type="checkbox" checked name="remember">
-                            Ghi nhớ cho lần đăng nhập sau
-                        </span>
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
+            <tr>
+                <td align="center" colspan="2">
+                    <img src="images/dangnhap/userlogin.png"
+                         alt="Avatar"
+                         width="200">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="uname">
+                        <b>Email</b>
+                    </label>
+                </td>
+
+                <td>
+                    <input id="uname"
+                           type="text"
+                           placeholder="Nhập email"
+                           name="uname"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="psw">
+                        <b>Mật khẩu</b>
+                    </label>
+                </td>
+
+                <td>
+                    <input id="psw"
+                           type="password"
+                           placeholder="Nhập mật khẩu"
+                           name="psw"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2">
+                    <button type="submit">
+                        Đăng Nhập
+                    </button>
+
+                    <button type="button">
+                        Hủy
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+
+                    <span>
+                        Bạn quên
+                        <a href="#">Mật Khẩu?</a>
+                    </span>
+
+                    <span>
+                        <input type="checkbox"
+                               checked="checked"
+                               name="remember">
+                        Ghi nhớ cho lần đăng nhập sau
+                    </span>
+
+                </td>
+            </tr>
+
+        </table>
+
+    </fieldset>
+
+</form>
+
 </main>
 
-<hr>
-
 <footer>
+
     <p>
-        &copy; 2026 Bản quyền thuộc về FreezeeVN.
+        &copy; 2026 Bản quyền thuộc về FreeezeVN.
+
         <a href="#">facebook</a>
         <a href="#">twitter</a>
         <a href="#">pinterest</a>
         <a href="#top">Về Đầu Trang</a>
     </p>
+
 </footer>
 
 </body>
